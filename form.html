@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Form</title>
+  </head>
+  <body>
+      <form onsubmit="return event.preventDefault()">
+          <h3>Name</h3>
+          <input type="text" name="firstname" id="firstname">
+          <label for="firstname">First Name</label>
+          <input type="text" name="lastname" id="lastname">
+          <label for="lastname">Last Name</label>
+          <select id="discussion_question_select" name="select-discussion_question_select-field" aria-required="true">
+                            
+            <option value="1. What are the major conflicts in the story?">1. What are the major conflicts in the story?</option>
+
+            <option value="2. What is the plot of the story? Is it engaging?">2. What is the plot of the story? Is it engaging?</option>
+
+            <option value="3. Did it take a while to get interested in the story? If so, explain.">3. Did it take a while to get interested in the story? If so, explain.</option>
+
+            <option value="4. Some people think the first sentence of a novel is the most important. Based on this book, would you agree or disagree with that? Why?">4. Some people think the first sentence of a novel is the most important. Based on this book, would you agree or disagree with that? Why?</option>
+
+            <option value="5. Describe the main character's personality traits, motivations, and inner qualities.">5. Describe the main character's personality traits, motivations, and inner qualities.</option>
+
+            <option value="6. Who is your favorite character and why?">6. Who is your favorite character and why?</option>
+
+            <option value="7. Which character(s) did you like the least and why?">7. Which character(s) did you like the least and why?</option>
+
+            <option value="8. Did the main character(s) change or mature by the end of the story? What did they learn about themselves?">8. Did the main character(s) change or mature by the end of the story? What did they learn about themselves?</option>
+
+            <option value="9. Did the characters seem believable to you? How so? Could you relate to any of them?">9. Did the characters seem believable to you? How so? Could you relate to any of them?</option>
+
+            <option value="10. What moments in the novel made you decide you like it or dislike it so far?">10. What moments in the novel made you decide you like it or dislike it so far?</option>
+
+            <option value="11. What surprised you most about the book?">11. What surprised you most about the book?</option>
+
+            <option value="12. What part of the book stuck with you the most?">12. What part of the book stuck with you the most?</option>
+
+            <option value="13. What was one thing you liked and one thing you would change about the story?">13. What was one thing you liked and one thing you would change about the story?</option>
+
+            <option value="14. What did you learn/take away from this book?">14. What did you learn/take away from this book?</option>
+
+            <option value="15. What is the overall message/theme of the story?">15. What is the overall message/theme of the story?</option>
+
+            <option value="16. Did this book remind you of another book you've read? Which one and why? If not, what made it unique?">16. Did this book remind you of another book you've read? Which one and why? If not, what made it unique?</option>
+
+            <option value="17. Would you recommend this book to someone? If so, why and who? If not, why?">17. Would you recommend this book to someone? If so, why and who? If not, why?</option>
+
+            <option value="18. Share a favorite quote from the book. Why did this quote stand out?">18. Share a favorite quote from the book. Why did this quote stand out?</option>
+
+            <option value="19. What other books by this author have you read? How did they compare to this book?">19. What other books by this author have you read? How did they compare to this book?</option>
+
+            <option value="20. Would you read another book by this author? Why or why not?">20. Would you read another book by this author? Why or why not?</option>
+
+            <option value="21. What feelings did this book evoke for you?">21. What feelings did this book evoke for you?</option>
+
+            <option value="22. What songs does this book make you think of? Create a book group playlist!">22. What songs does this book make you think of? Create a book group playlist!</option>
+
+            <option value="23. If you could meet one of the characters right now, who would they be and what would you say to them?">23. If you could meet one of the characters right now, who would they be and what would you say to them?</option>
+
+            <option value="24. If you were making a movie of this book, who would you cast? Would you change anything in the plot?">24. If you were making a movie of this book, who would you cast? Would you change anything in the plot?</option>
+
+            <option value="25. Pretend you're the author's editor. What notes would you give them?">25. Pretend you're the author's editor. What notes would you give them?</option>
+
+            <option value="26. If you got the chance to ask the author of this book one question, what would it be?">26. If you got the chance to ask the author of this book one question, what would it be?</option>
+
+            <option value="27. Which character in the book would you most like to meet and why?">27. Which character in the book would you most like to meet and why?</option>
+
+            <option value="28. Which places in the book would you most like to visit? Why?">28. Which places in the book would you most like to visit? Why?</option>
+
+            <option value="29. What do you think of the book's title? How does it relate to the story? What other title(s) might you choose?">29. What do you think of the book's title? How does it relate to the story? What other title(s) might you choose?</option>
+
+            <option value="30. What do you think the author's purpose was in writing this book? What ideas were they trying to get across?">30. What do you think the author's purpose was in writing this book? What ideas were they trying to get across?</option>
+
+            <optgroup label=""></optgroup>
+          </select>
+          <button id="discussion_form" onclick="submitForm()">
+      </form>
+  </body>
+  <script type="text/javascript">
+    function submitForm() {
+      var form = document.getElementById("discussion_form");
+      console.log(form)
+      <!-- form.submit(); -->
+    }
+  </script>
+</html>

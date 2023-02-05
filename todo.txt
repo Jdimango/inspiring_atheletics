@@ -1,0 +1,27 @@
+BackEnd
++ Creat a firebase project
++ Add sample data structure
+- add firebase to JS file
++ Edit permissions to allow users to access data
+
+
+SquareSpace Site
++ Create custom form
+- Populate form with options from current Site
+- Create logic to send data to firebase
+- Style form to match site
+
+
+FrontEnd Admin Panel
+- create a basic html page
+- add firebase to JS file
+- create a function to pull data from firebase
+- Create a dynamic table to display data
+- Create a function to add notes on answers to firebase
+
+
+Bonus
+- create a search functionality to see all answers by a specific user
+- or create a search functionality to see all answers to a specific question
+- or create a search functionality to see all answers to a specific question by a specific user
+- or create a button to see all answers by user on their answer dropdown
